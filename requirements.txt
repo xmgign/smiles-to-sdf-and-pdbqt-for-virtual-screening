@@ -1,5 +1,12 @@
-rdkit
-pandas>=1.0.0
-tqdm>=4.0.0
-# 可选依赖 - 用于PDBQT转换
-# meeko>=0.5.0
+# 核心依赖 
+rdkit>=2024.9.1
+pandas>=1.5.0
+numpy>=1.21.0
+tqdm>=4.64.0
+
+# 可选依赖 - PDBQT转换
+meeko>=0.6.1
+gemmi>=0.7.0
+
+# 可选依赖 - Excel支持
+openpyxl>=3.0.0
