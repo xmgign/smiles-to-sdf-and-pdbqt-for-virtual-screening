@@ -2,7 +2,7 @@
 
 一个简单高效的分子预处理工具，用于将SMILES字符串转换为3D SDF和PDBQT文件。
 
-## 🚀 快速开始
+## 快速开始
 
 ### 1. 下载文件
 只需要下载 `molecular_preprocessor.py` 这一个文件即可！
@@ -103,6 +103,3 @@ A: 确保安装了Meeko：`pip install meeko`
 
 MIT License - 自由使用和修改
 
----
-
-**简单、高效、易用！只需一个Python文件即可开始分子预处理！** 🧪✨
