@@ -8,11 +8,19 @@
 只需要下载 `molecular_preprocessor.py` 这一个文件即可！
 
 ### 2. 安装依赖
-```bash
-pip install rdkit pandas tqdm
-# 可选：安装Meeko用于PDBQT转换
-pip install meeko
-```
+# 核心依赖 - 精简版
+rdkit>=2024.9.1
+pandas>=1.5.0
+numpy>=1.21.0
+tqdm>=4.64.0
+
+# 可选依赖 - PDBQT转换
+meeko>=0.6.1
+gemmi>=0.7.0
+
+# 可选依赖 - Excel支持
+openpyxl>=3.0.0
+
 
 ### 3. 直接使用
 ```python
@@ -102,4 +110,5 @@ A: 确保安装了Meeko：`pip install meeko`
 ## 📄 许可证
 
 MIT License - 自由使用和修改
+
 
